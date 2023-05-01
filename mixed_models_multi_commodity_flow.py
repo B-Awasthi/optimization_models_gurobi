@@ -1,5 +1,5 @@
 import itertools
-import transship_dist
+import linear_network_models_trasnsship_dist
 import gurobipy as gp
 from gurobipy import GRB
 
@@ -13,10 +13,10 @@ from gurobipy import GRB
 
 # function to generate data
 def gen_data(n, K):
-    C = [transship_dist.gen_data(n, False) for _ in range(K)]
+    C = [linear_network_models_trasnsship_dist.gen_data(n, False) for _ in range(K)]
     X = [[0 for _ in range(n)] for _ in range(n)]
     for k in range(K):
-        status, Val, x = transship_dist.solve_model(C[k])
+        status, Val, x = linear_network_models_trasnsship_dist.solve_model(C[k])
         if status == 2:  # optimal
             for i in range(n):
                 for j in range(n):
