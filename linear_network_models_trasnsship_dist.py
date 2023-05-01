@@ -79,8 +79,8 @@ def solve_model(D):
 
     solution = {i: x[i].X for i in x}
 
-    return model.ObjVal, solution
+    return model.Status, model.ObjVal, solution
 
 
 if __name__ == "__main__":
-    solve_model(D)
+    optimality_status, objval, sol = solve_model(D)
