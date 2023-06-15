@@ -4,10 +4,10 @@ Implementation of several optimization models from Book : "Practical Python AI P
 Repository has implementation of following models from the chapters:
 
 Chapter 4: Linear Network Models
-            - Maximum Flow
-            - Minimum Cost Flow
-            - Transshipment
-            - Shortest Paths
+            Maximum Flow
+            Minimum Cost Flow
+            Transshipment
+            Shortest Paths
 
 Chapter 5: Classic Discrete Models
             - Minimum Set Cover
