@@ -4,7 +4,7 @@ Implementation of several optimization models from Book : "Practical Python AI P
 Repository has implementation of following models from the chapters:
 
 Chapter 4: Linear Network Models
-            Maximum Flow__
+            Maximum Flow <br />
             Minimum Cost Flow__
             Transshipment
             Shortest Paths
