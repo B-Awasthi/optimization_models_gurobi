@@ -6,7 +6,9 @@ Repository has implementation of following models from the chapters:
 
 Chapter 2: Linear Continuous Models <br />
             - Mixing (Diet problem) <br />
-            - Blending (Gas blend problem) <br />            
+            - Blending (Gas blend problem) <br />
+            - Project Management <br />
+            - Pattern Classification <br />
 
 Chapter 4: Linear Network Models <br />
             - Maximum Flow <br />
