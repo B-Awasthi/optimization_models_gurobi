@@ -10,6 +10,11 @@ Chapter 2: Linear Continuous Models <br />
             - Project Management <br />
             - Pattern Classification <br />
 
+Chapter 3: Hidden Linear Continuous Models <br />
+            - Piecewise Linear <br />
+            - Curve Fitting <br />
+            - Pattern Classification Revisited <br />
+
 Chapter 4: Linear Network Models <br />
             - Maximum Flow <br />
             - Minimum Cost Flow <br />
